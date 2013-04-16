@@ -16,6 +16,7 @@
     Person *spouse;
     NSMutableArray *children;
 }
+
 @property int employeeID;
 
 @end
