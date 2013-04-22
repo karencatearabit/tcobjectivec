@@ -1,0 +1,249 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5AEAAF7A172505E30026EAF1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AEAAF79172505E30026EAF1 /* Foundation.framework */; };
+		5AEAAF7D172505E30026EAF1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AEAAF7C172505E30026EAF1 /* main.m */; };
+		5AEAAF81172505E30026EAF1 /* _C__Date_Interval.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5AEAAF80172505E30026EAF1 /* _C__Date_Interval.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5AEAAF74172505E30026EAF1 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				5AEAAF81172505E30026EAF1 /* _C__Date_Interval.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5AEAAF76172505E30026EAF1 /* [C] Date Interval */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "[C] Date Interval"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AEAAF79172505E30026EAF1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5AEAAF7C172505E30026EAF1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5AEAAF7F172505E30026EAF1 /* [C] Date Interval-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "[C] Date Interval-Prefix.pch"; sourceTree = "<group>"; };
+		5AEAAF80172505E30026EAF1 /* _C__Date_Interval.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = _C__Date_Interval.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5AEAAF73172505E30026EAF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AEAAF7A172505E30026EAF1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5AEAAF6D172505E30026EAF1 = {
+			isa = PBXGroup;
+			children = (
+				5AEAAF7B172505E30026EAF1 /* [C] Date Interval */,
+				5AEAAF78172505E30026EAF1 /* Frameworks */,
+				5AEAAF77172505E30026EAF1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5AEAAF77172505E30026EAF1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5AEAAF76172505E30026EAF1 /* [C] Date Interval */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5AEAAF78172505E30026EAF1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5AEAAF79172505E30026EAF1 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5AEAAF7B172505E30026EAF1 /* [C] Date Interval */ = {
+			isa = PBXGroup;
+			children = (
+				5AEAAF7C172505E30026EAF1 /* main.m */,
+				5AEAAF80172505E30026EAF1 /* _C__Date_Interval.1 */,
+				5AEAAF7E172505E30026EAF1 /* Supporting Files */,
+			);
+			path = "[C] Date Interval";
+			sourceTree = "<group>";
+		};
+		5AEAAF7E172505E30026EAF1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5AEAAF7F172505E30026EAF1 /* [C] Date Interval-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5AEAAF75172505E30026EAF1 /* [C] Date Interval */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AEAAF84172505E30026EAF1 /* Build configuration list for PBXNativeTarget "[C] Date Interval" */;
+			buildPhases = (
+				5AEAAF72172505E30026EAF1 /* Sources */,
+				5AEAAF73172505E30026EAF1 /* Frameworks */,
+				5AEAAF74172505E30026EAF1 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "[C] Date Interval";
+			productName = "[C] Date Interval";
+			productReference = 5AEAAF76172505E30026EAF1 /* [C] Date Interval */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5AEAAF6E172505E30026EAF1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Karen Cate Arabit";
+			};
+			buildConfigurationList = 5AEAAF71172505E30026EAF1 /* Build configuration list for PBXProject "[C] Date Interval" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5AEAAF6D172505E30026EAF1;
+			productRefGroup = 5AEAAF77172505E30026EAF1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5AEAAF75172505E30026EAF1 /* [C] Date Interval */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5AEAAF72172505E30026EAF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AEAAF7D172505E30026EAF1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5AEAAF82172505E30026EAF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		5AEAAF83172505E30026EAF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5AEAAF85172505E30026EAF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "[C] Date Interval/[C] Date Interval-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5AEAAF86172505E30026EAF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "[C] Date Interval/[C] Date Interval-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5AEAAF71172505E30026EAF1 /* Build configuration list for PBXProject "[C] Date Interval" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AEAAF82172505E30026EAF1 /* Debug */,
+				5AEAAF83172505E30026EAF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5AEAAF84172505E30026EAF1 /* Build configuration list for PBXNativeTarget "[C] Date Interval" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AEAAF85172505E30026EAF1 /* Debug */,
+				5AEAAF86172505E30026EAF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5AEAAF6E172505E30026EAF1 /* Project object */;
+}

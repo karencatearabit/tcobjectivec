@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the '[C] 8 Types' target in the '[C] 8 Types' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif
